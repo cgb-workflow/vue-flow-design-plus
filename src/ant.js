@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import {
   Button,
+  Badge,
   Checkbox,
   Divider,
   Drawer,
@@ -19,10 +20,11 @@ import {
   Tabs,
   Tag,
   Table,
-  Tooltip,
+  Tooltip
 } from 'ant-design-vue'
 
 Vue.use(Button)
+Vue.use(Badge)
 Vue.use(Checkbox)
 Vue.use(Divider)
 Vue.use(Drawer)
@@ -43,5 +45,3 @@ Vue.use(Table)
 Vue.use(Tooltip)
 
 Vue.prototype.$message = message
-
-
